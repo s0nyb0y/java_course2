@@ -40,5 +40,10 @@ public class Test {
 
         // метод .values() возвращает все значения или множество значений
         System.out.println(map.values());
+
+        // метод .entrySet() возвращает множество ключей и значений
+        for (Map.Entry<Integer,String>entry: map.entrySet()){
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
     }
 }
