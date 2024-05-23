@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-course2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/Test.java" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson34 Lambda + Consumer добавил пример">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,70 +30,136 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test (1).executor": "Run",
-    "Application.Test (2).executor": "Run",
-    "Application.Test (3).executor": "Run",
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnonymousClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalInner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueueEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson11_iterator.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson12_LinkedList.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson13_ListIterator.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson16_Map.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson17_hashCode.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson18_TreeMap.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson20_HashSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson21_TreeSet.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson21_TreeSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson22_LinkedHashSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson23.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson25_Deque.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson27_inner_class.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson31.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson31_lambda2.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson32_lambda_predicate.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson33_lambda_supplier.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson34.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson34_lambda_Consumer.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson35.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson4_parametrized_method.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson6.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson7.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson9.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/java-course2/src/lesson31_lambda2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Test (3)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lesson35.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Test" />
+      <option name="MAIN_CLASS_NAME" value="lesson35_lambda_function.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson35_lambda_function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson31_lambda2.StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson31_lambda2.StudentInfo" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson31_lambda2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson32_lambda_predicate.StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson32_lambda_predicate.StudentInfo" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson32_lambda_predicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson33_lambda_supplier.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson33_lambda_supplier.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson33_lambda_supplier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson34_lambda_Consumer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson34_lambda_Consumer.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson34_lambda_Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.lesson35.Test" />
+        <item itemvalue="Application.lesson34_lambda_Consumer.Test" />
+        <item itemvalue="Application.lesson33_lambda_supplier.Test" />
+        <item itemvalue="Application.lesson32_lambda_predicate.StudentInfo" />
+        <item itemvalue="Application.lesson31_lambda2.StudentInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -133,10 +194,345 @@
       <updated>1713788524072</updated>
       <workItem from="1713788525125" duration="647000" />
       <workItem from="1713789188168" duration="2058000" />
+      <workItem from="1714029614126" duration="600000" />
+      <workItem from="1714131407408" duration="5249000" />
+      <workItem from="1714215563332" duration="5607000" />
+      <workItem from="1714468866631" duration="10602000" />
+      <workItem from="1714566313207" duration="5509000" />
+      <workItem from="1714652951750" duration="2508000" />
+      <workItem from="1714656333440" duration="994000" />
+      <workItem from="1714734258216" duration="18296000" />
+      <workItem from="1714996810049" duration="4360000" />
+      <workItem from="1715164899957" duration="5310000" />
+      <workItem from="1715248510948" duration="4168000" />
+      <workItem from="1715328138543" duration="5352000" />
+      <workItem from="1715610042732" duration="2116000" />
+      <workItem from="1715612374498" duration="355000" />
+      <workItem from="1715685824471" duration="2325000" />
+      <workItem from="1715700137778" duration="1795000" />
+      <workItem from="1715768570230" duration="2591000" />
+      <workItem from="1715855141008" duration="7535000" />
+      <workItem from="1715957790156" duration="3590000" />
+      <workItem from="1716292777606" duration="8962000" />
+      <workItem from="1716367852084" duration="5608000" />
+      <workItem from="1716467697383" duration="4737000" />
+      <workItem from="1716473222463" duration="1846000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson4 Parametrized method">
+      <option name="closed" value="true" />
+      <created>1713960649325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713960649325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson5 Generic example">
+      <option name="closed" value="true" />
+      <created>1713966443180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713966443180</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson6 Generic Subtyping">
+      <option name="closed" value="true" />
+      <created>1714135571286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714135571286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson7 Generic Wildcards">
+      <option name="closed" value="true" />
+      <created>1714137551179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714137551179</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson8 collection ArrayList">
+      <option name="closed" value="true" />
+      <created>1714218544503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714218544503</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson8 ArrayList methods">
+      <option name="closed" value="true" />
+      <created>1714221786259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714221786259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson9 ArrayList methods часть 2">
+      <option name="closed" value="true" />
+      <created>1714471034090</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714471034090</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson10 ArrayList methods часть 3">
+      <option name="closed" value="true" />
+      <created>1714572399086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714572399086</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson11 Iterator">
+      <option name="closed" value="true" />
+      <created>1714654908464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714654908464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson12 LinkedList">
+      <option name="closed" value="true" />
+      <created>1714655999937</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714655999937</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson13 ListIterator">
+      <option name="closed" value="true" />
+      <created>1714657320773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714657320773</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lesson14 Collections methods">
+      <option name="closed" value="true" />
+      <created>1714738820332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714738820332</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson15 Stack methods">
+      <option name="closed" value="true" />
+      <created>1714998588392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714998588392</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lesson16 Map methods">
+      <option name="closed" value="true" />
+      <created>1715001799376</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715001799376</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson16 entrySet()">
+      <option name="closed" value="true" />
+      <created>1715167384989</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715167384989</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lesson17 hashCode()">
+      <option name="closed" value="true" />
+      <created>1715173702387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715173702387</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lesson18 TreeMap">
+      <option name="closed" value="true" />
+      <created>1715253137592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715253137592</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lesson19 LinkedHashMap">
+      <option name="closed" value="true" />
+      <created>1715329723663</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715329723663</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lesson20 HashSet methods">
+      <option name="closed" value="true" />
+      <created>1715333537021</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333537021</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lesson21 TreeSet methods">
+      <option name="closed" value="true" />
+      <created>1715612154965</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715612154965</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lesson22 LinkedHashSet">
+      <option name="closed" value="true" />
+      <created>1715612685621</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715612685622</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lesson23 Queue">
+      <option name="closed" value="true" />
+      <created>1715687540752</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715687540752</updated>
+    </task>
+    <task id="LOCAL-00023" summary="lesson24 PriorityQueue">
+      <option name="closed" value="true" />
+      <created>1715701925423</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715701925423</updated>
+    </task>
+    <task id="LOCAL-00024" summary="lesson25 Deque">
+      <option name="closed" value="true" />
+      <created>1715769973648</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769973648</updated>
+    </task>
+    <task id="LOCAL-00025" summary="lesson26 Nested static class">
+      <option name="closed" value="true" />
+      <created>1715864571031</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715864571031</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lesson27 inner class">
+      <option name="closed" value="true" />
+      <created>1715870123617</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715870123617</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lesson28 Local inner class">
+      <option name="closed" value="true" />
+      <created>1715959708125</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715959708125</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lesson29 Anonymous class">
+      <option name="closed" value="true" />
+      <created>1715961356323</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715961356323</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lesson30 Lambda">
+      <option name="closed" value="true" />
+      <created>1716298996886</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716298996886</updated>
+    </task>
+    <task id="LOCAL-00030" summary="lesson31 Lambda + Comparator">
+      <option name="closed" value="true" />
+      <created>1716304059833</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716304059833</updated>
+    </task>
+    <task id="LOCAL-00031" summary="lesson32 Lambda + Predicate">
+      <option name="closed" value="true" />
+      <created>1716371537496</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716371537497</updated>
+    </task>
+    <task id="LOCAL-00032" summary="lesson32 Lambda + Supplier">
+      <option name="closed" value="true" />
+      <created>1716373556639</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716373556639</updated>
+    </task>
+    <task id="LOCAL-00033" summary="lesson34 Lambda + Consumer">
+      <option name="closed" value="true" />
+      <created>1716470524596</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716470524596</updated>
+    </task>
+    <task id="LOCAL-00034" summary="lesson34 Lambda + Consumer добавил пример">
+      <option name="closed" value="true" />
+      <created>1716472447694</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716472447694</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson12 LinkedList" />
+    <MESSAGE value="lesson13 ListIterator" />
+    <MESSAGE value="lesson14 Collections methods" />
+    <MESSAGE value="lesson15 Stack methods" />
+    <MESSAGE value="lesson16 Map methods" />
+    <MESSAGE value="lesson16 entrySet()" />
+    <MESSAGE value="lesson17 hashCode()" />
+    <MESSAGE value="lesson18 TreeMap" />
+    <MESSAGE value="lesson19 LinkedHashMap" />
+    <MESSAGE value="lesson20 HashSet methods" />
+    <MESSAGE value="lesson21 TreeSet methods" />
+    <MESSAGE value="lesson22 LinkedHashSet" />
+    <MESSAGE value="lesson23 Queue" />
+    <MESSAGE value="lesson24 PriorityQueue" />
+    <MESSAGE value="lesson25 Deque" />
+    <MESSAGE value="lesson26 Nested static class" />
+    <MESSAGE value="lesson27 inner class" />
+    <MESSAGE value="lesson28 Local inner class" />
+    <MESSAGE value="lesson29 Anonymous class" />
+    <MESSAGE value="lesson30 Lambda" />
+    <MESSAGE value="lesson31 Lambda + Comparator" />
+    <MESSAGE value="lesson32 Lambda + Predicate" />
+    <MESSAGE value="lesson32 Lambda + Supplier" />
+    <MESSAGE value="lesson34 Lambda + Consumer" />
+    <MESSAGE value="lesson34 Lambda + Consumer добавил пример" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson34 Lambda + Consumer добавил пример" />
   </component>
 </project>
