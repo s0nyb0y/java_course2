@@ -1,6 +1,7 @@
 package lesson34_lambda_Consumer;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -30,6 +31,15 @@ public class Test {
             car.setEngine(3.0);
         });
         carList.forEach(el -> System.out.println(el));
+
+        List<Integer> integers = new ArrayList<>();
+        Collections.addAll(integers, 1, 2, 3, 4, 5, 6);
+        integers.forEach(el -> {
+            System.out.println(el);
+            el *= 2;
+            System.out.println(el);
+        });
+
     }
 }
 
