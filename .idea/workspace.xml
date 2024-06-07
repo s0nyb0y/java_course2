@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson34 Lambda + Consumer добавил пример">
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson43 stream flatMap">
+      <change afterPath="$PROJECT_DIR$/src/lesson44_stream_groupingBy_and_partitioningBy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,84 +31,133 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnonymousClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalInner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueueEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithInterfaceComparable (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithInterfaceComparable (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithInterfaceComparable (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithInterfaceComparable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson10.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson10.Test (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson10.Test (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson10.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson11_iterator.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson12_LinkedList.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson13_ListIterator.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson16_Map.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson17_hashCode.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson18_TreeMap.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson20_HashSet.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson21_TreeSet.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson21_TreeSet.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson22_LinkedHashSet.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson23.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson25_Deque.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson27_inner_class.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson31.StudentInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson31_lambda2.StudentInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson32_lambda_predicate.StudentInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson33_lambda_supplier.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson34.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson34_lambda_Consumer.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson35.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson4.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson4_parametrized_method.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson6.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson7.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8_collection_ArrayList.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8_collection_ArrayList.Test2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8_collection_ArrayList.Test2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8_collection_ArrayList.Test2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson8_collection_ArrayList.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson9.Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/java-course2/src/lesson31_lambda2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnonymousClass.executor": "Run",
+    "Application.BinarySearch (1).executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.LocalInner.executor": "Run",
+    "Application.PriorityQueueEx.executor": "Run",
+    "Application.StudentInfo.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test (2).executor": "Run",
+    "Application.Test (3).executor": "Run",
+    "Application.Test (4).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.WithInterfaceComparable (1).executor": "Run",
+    "Application.WithInterfaceComparable (2).executor": "Run",
+    "Application.WithInterfaceComparable (3).executor": "Run",
+    "Application.WithInterfaceComparable.executor": "Run",
+    "Application.lesson10.Test (1).executor": "Run",
+    "Application.lesson10.Test (2).executor": "Run",
+    "Application.lesson10.Test (3).executor": "Run",
+    "Application.lesson10.Test.executor": "Run",
+    "Application.lesson11_iterator.Test.executor": "Run",
+    "Application.lesson12_LinkedList.Test.executor": "Run",
+    "Application.lesson13_ListIterator.Test.executor": "Run",
+    "Application.lesson16_Map.Test.executor": "Run",
+    "Application.lesson17_hashCode.Test.executor": "Run",
+    "Application.lesson18_TreeMap.Test.executor": "Run",
+    "Application.lesson20_HashSet.Test.executor": "Run",
+    "Application.lesson21_TreeSet.Test (1).executor": "Run",
+    "Application.lesson21_TreeSet.Test.executor": "Run",
+    "Application.lesson22_LinkedHashSet.Test.executor": "Run",
+    "Application.lesson23.Test.executor": "Run",
+    "Application.lesson25_Deque.Test.executor": "Run",
+    "Application.lesson27_inner_class.Test.executor": "Run",
+    "Application.lesson31.StudentInfo.executor": "Run",
+    "Application.lesson31_lambda2.StudentInfo.executor": "Run",
+    "Application.lesson32_lambda_predicate.StudentInfo.executor": "Run",
+    "Application.lesson33_lambda_supplier.Test.executor": "Run",
+    "Application.lesson34.Test.executor": "Run",
+    "Application.lesson34_lambda_Consumer.Test.executor": "Run",
+    "Application.lesson35.Test.executor": "Run",
+    "Application.lesson36_streams_map.Test.executor": "Run",
+    "Application.lesson38_stream_reduce.Test.executor": "Run",
+    "Application.lesson39_stream_sorted.Test.executor": "Run",
+    "Application.lesson4.Test.executor": "Run",
+    "Application.lesson40.Test.executor": "Debug",
+    "Application.lesson40_stream_chaining.Test.executor": "Run",
+    "Application.lesson41_stream_concat.Test.executor": "Run",
+    "Application.lesson42_stream_count.Test.executor": "Run",
+    "Application.lesson43_stream_flatMap.Test.executor": "Run",
+    "Application.lesson44.Test.executor": "Run",
+    "Application.lesson4_parametrized_method.Test.executor": "Run",
+    "Application.lesson6.Test.executor": "Run",
+    "Application.lesson7.Test.executor": "Run",
+    "Application.lesson8.Test.executor": "Run",
+    "Application.lesson8_collection_ArrayList.Test.executor": "Run",
+    "Application.lesson8_collection_ArrayList.Test2 (1).executor": "Run",
+    "Application.lesson8_collection_ArrayList.Test2 (2).executor": "Run",
+    "Application.lesson8_collection_ArrayList.Test2 (3).executor": "Run",
+    "Application.lesson8_collection_ArrayList.Test2.executor": "Run",
+    "Application.lesson9.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/a7906/IdeaProjects/java-course2/src/lesson31_lambda2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson35.Test">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson44.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson44.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson44.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson35_lambda_function.Test" />
+      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson35_lambda_function.*" />
+          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson31_lambda2.StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson31_lambda2.StudentInfo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson31_lambda2.*" />
+          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson32_lambda_predicate.StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson32_lambda_predicate.StudentInfo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson32_lambda_predicate.*" />
+          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson33_lambda_supplier.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson33_lambda_supplier.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson33_lambda_supplier.*" />
+          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson34_lambda_Consumer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson34_lambda_Consumer.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson34_lambda_Consumer.*" />
+          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson35.Test" />
-        <item itemvalue="Application.lesson34_lambda_Consumer.Test" />
-        <item itemvalue="Application.lesson33_lambda_supplier.Test" />
-        <item itemvalue="Application.lesson32_lambda_predicate.StudentInfo" />
-        <item itemvalue="Application.lesson31_lambda2.StudentInfo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +266,13 @@
       <workItem from="1716292777606" duration="8962000" />
       <workItem from="1716367852084" duration="5608000" />
       <workItem from="1716467697383" duration="4737000" />
-      <workItem from="1716473222463" duration="1846000" />
+      <workItem from="1716473222463" duration="1975000" />
+      <workItem from="1716539552746" duration="6556000" />
+      <workItem from="1716805195283" duration="4973000" />
+      <workItem from="1716898160953" duration="7672000" />
+      <workItem from="1716990019583" duration="3543000" />
+      <workItem from="1717626303243" duration="1446000" />
+      <workItem from="1717627767817" duration="7224000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4 Parametrized method">
       <option name="closed" value="true" />
@@ -490,7 +546,79 @@
       <option name="project" value="LOCAL" />
       <updated>1716472447694</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="lesson35 Lambda + Function">
+      <option name="closed" value="true" />
+      <created>1716475147064</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1716475147064</updated>
+    </task>
+    <task id="LOCAL-00036" summary="lesson36 stream map">
+      <option name="closed" value="true" />
+      <created>1716547806398</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716547806398</updated>
+    </task>
+    <task id="LOCAL-00037" summary="lesson37 stream filter">
+      <option name="closed" value="true" />
+      <created>1716806830983</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716806830983</updated>
+    </task>
+    <task id="LOCAL-00038" summary="lesson38 stream reduce">
+      <option name="closed" value="true" />
+      <created>1716810270980</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1716810270980</updated>
+    </task>
+    <task id="LOCAL-00039" summary="lesson39 stream sorted">
+      <option name="closed" value="true" />
+      <created>1716899738283</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1716899738283</updated>
+    </task>
+    <task id="LOCAL-00040" summary="lesson40 stream chaining">
+      <option name="closed" value="true" />
+      <created>1716908488091</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716908488091</updated>
+    </task>
+    <task id="LOCAL-00041" summary="lesson41 stream distinct">
+      <option name="closed" value="true" />
+      <created>1716990846051</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716990846051</updated>
+    </task>
+    <task id="LOCAL-00042" summary="lesson42 stream count,peek">
+      <option name="closed" value="true" />
+      <created>1716991741515</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1716991741515</updated>
+    </task>
+    <task id="LOCAL-00043" summary="lesson43 stream flatMap">
+      <option name="closed" value="true" />
+      <created>1716993564371</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993564371</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,15 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson12 LinkedList" />
-    <MESSAGE value="lesson13 ListIterator" />
-    <MESSAGE value="lesson14 Collections methods" />
-    <MESSAGE value="lesson15 Stack methods" />
-    <MESSAGE value="lesson16 Map methods" />
-    <MESSAGE value="lesson16 entrySet()" />
-    <MESSAGE value="lesson17 hashCode()" />
-    <MESSAGE value="lesson18 TreeMap" />
-    <MESSAGE value="lesson19 LinkedHashMap" />
     <MESSAGE value="lesson20 HashSet methods" />
     <MESSAGE value="lesson21 TreeSet methods" />
     <MESSAGE value="lesson22 LinkedHashSet" />
@@ -533,6 +652,15 @@
     <MESSAGE value="lesson32 Lambda + Supplier" />
     <MESSAGE value="lesson34 Lambda + Consumer" />
     <MESSAGE value="lesson34 Lambda + Consumer добавил пример" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson34 Lambda + Consumer добавил пример" />
+    <MESSAGE value="lesson35 Lambda + Function" />
+    <MESSAGE value="lesson36 stream map" />
+    <MESSAGE value="lesson37 stream filter" />
+    <MESSAGE value="lesson38 stream reduce" />
+    <MESSAGE value="lesson39 stream sorted" />
+    <MESSAGE value="lesson40 stream chaining" />
+    <MESSAGE value="lesson41 stream distinct" />
+    <MESSAGE value="lesson42 stream count,peek" />
+    <MESSAGE value="lesson43 stream flatMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson43 stream flatMap" />
   </component>
 </project>
