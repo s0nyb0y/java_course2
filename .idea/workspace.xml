@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson43 stream flatMap">
-      <change afterPath="$PROJECT_DIR$/src/lesson44_stream_groupingBy_and_partitioningBy/Test.java" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson45 stream min-max">
+      <change afterPath="$PROJECT_DIR$/src/lesson47/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +83,9 @@
     "Application.lesson42_stream_count.Test.executor": "Run",
     "Application.lesson43_stream_flatMap.Test.executor": "Run",
     "Application.lesson44.Test.executor": "Run",
+    "Application.lesson45.Test.executor": "Run",
+    "Application.lesson46.Test.executor": "Run",
+    "Application.lesson47.Test.executor": "Run",
     "Application.lesson4_parametrized_method.Test.executor": "Run",
     "Application.lesson6.Test.executor": "Run",
     "Application.lesson7.Test.executor": "Run",
@@ -112,33 +115,7 @@
       <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson44.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson44.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.lesson47.Test">
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson44.Test" />
       <module name="java-course2" />
@@ -204,12 +181,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
+    <configuration name="lesson45_stream_findFirst.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson45_stream_findFirst.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
+          <option name="PATTERN" value="lesson45_stream_findFirst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson46_stream_min_max.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson46_stream_min_max.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson46_stream_min_max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson47.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson47.Test" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson47.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson47.Test" />
+        <item itemvalue="Application.lesson46_stream_min_max.Test" />
+        <item itemvalue="Application.lesson45_stream_findFirst.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +275,9 @@
       <workItem from="1716898160953" duration="7672000" />
       <workItem from="1716990019583" duration="3543000" />
       <workItem from="1717626303243" duration="1446000" />
-      <workItem from="1717627767817" duration="7224000" />
+      <workItem from="1717627767817" duration="8331000" />
+      <workItem from="1717861955687" duration="1976000" />
+      <workItem from="1718094544965" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4 Parametrized method">
       <option name="closed" value="true" />
@@ -618,7 +623,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716993564371</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="lesson44 stream partitioningBy,groupingBy">
+      <option name="closed" value="true" />
+      <created>1717786321756</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1717786321757</updated>
+    </task>
+    <task id="LOCAL-00045" summary="lesson45 stream findFirst">
+      <option name="closed" value="true" />
+      <created>1717863165727</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1717863165727</updated>
+    </task>
+    <task id="LOCAL-00046" summary="lesson45 stream min-max">
+      <option name="closed" value="true" />
+      <created>1717863929065</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1717863929065</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,9 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson20 HashSet methods" />
-    <MESSAGE value="lesson21 TreeSet methods" />
-    <MESSAGE value="lesson22 LinkedHashSet" />
     <MESSAGE value="lesson23 Queue" />
     <MESSAGE value="lesson24 PriorityQueue" />
     <MESSAGE value="lesson25 Deque" />
@@ -661,6 +687,9 @@
     <MESSAGE value="lesson41 stream distinct" />
     <MESSAGE value="lesson42 stream count,peek" />
     <MESSAGE value="lesson43 stream flatMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson43 stream flatMap" />
+    <MESSAGE value="lesson44 stream partitioningBy,groupingBy" />
+    <MESSAGE value="lesson45 stream findFirst" />
+    <MESSAGE value="lesson45 stream min-max" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson45 stream min-max" />
   </component>
 </project>
