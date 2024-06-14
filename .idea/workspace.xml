@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson49 stream mapToInt">
-      <change afterPath="$PROJECT_DIR$/src/lesson50_parallelStream/Test.java" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson50 parallel stream">
+      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +49,9 @@
     "Application.Test (4).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test2.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "Application.Test4.executor": "Run",
+    "Application.Test5.executor": "Run",
     "Application.WithInterfaceComparable (1).executor": "Run",
     "Application.WithInterfaceComparable (2).executor": "Run",
     "Application.WithInterfaceComparable (3).executor": "Run",
@@ -90,6 +97,7 @@
     "Application.lesson49_stream_mapToInt.Test.executor": "Run",
     "Application.lesson4_parametrized_method.Test.executor": "Run",
     "Application.lesson50.Test.executor": "Run",
+    "Application.lesson51_multithreading.Test.executor": "Run",
     "Application.lesson6.Test.executor": "Run",
     "Application.lesson7.Test.executor": "Run",
     "Application.lesson8.Test.executor": "Run",
@@ -118,13 +126,52 @@
       <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson50.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson50_parallelStream.Test" />
+  <component name="RunManager" selected="Application.Test5">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test2" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson50_parallelStream.*" />
+          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test3" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test4" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test5" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson51_multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,51 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson46_stream_min_max.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson46_stream_min_max.Test" />
+    <configuration name="lesson51_multithreading.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson46_stream_min_max.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson47.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson47.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson47.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson48_stream_skip.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson48_stream_skip.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson48_stream_skip.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson49_stream_mapToInt.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson49_stream_mapToInt.Test" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson49_stream_mapToInt.*" />
+          <option name="PATTERN" value="lesson51_multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson50.Test" />
-        <item itemvalue="Application.lesson49_stream_mapToInt.Test" />
-        <item itemvalue="Application.lesson48_stream_skip.Test" />
-        <item itemvalue="Application.lesson47.Test" />
-        <item itemvalue="Application.lesson46_stream_min_max.Test" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.lesson51_multithreading.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -268,15 +276,8 @@
       <workItem from="1717627767817" duration="8331000" />
       <workItem from="1717861955687" duration="1976000" />
       <workItem from="1718094544965" duration="5482000" />
-      <workItem from="1718276684975" duration="2964000" />
-    </task>
-    <task id="LOCAL-00001" summary="lesson4 Parametrized method">
-      <option name="closed" value="true" />
-      <created>1713960649325</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1713960649325</updated>
+      <workItem from="1718276684975" duration="3052000" />
+      <workItem from="1718355546441" duration="2733000" />
     </task>
     <task id="LOCAL-00002" summary="lesson5 Generic example">
       <option name="closed" value="true" />
@@ -662,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718100046583</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="lesson50 parallel stream">
+      <option name="closed" value="true" />
+      <created>1718282115599</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718282115599</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson26 Nested static class" />
     <MESSAGE value="lesson27 inner class" />
     <MESSAGE value="lesson28 Local inner class" />
     <MESSAGE value="lesson29 Anonymous class" />
@@ -705,6 +713,7 @@
     <MESSAGE value="lesson46 stream limit" />
     <MESSAGE value="lesson48 stream skip" />
     <MESSAGE value="lesson49 stream mapToInt" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson49 stream mapToInt" />
+    <MESSAGE value="lesson50 parallel stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson50 parallel stream" />
   </component>
 </project>
