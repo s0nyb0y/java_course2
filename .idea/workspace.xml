@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson50 parallel stream">
-      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson51_multithreading/Test5.java" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson53 multithreading методы sleep,join,getState">
+      <change afterPath="$PROJECT_DIR$/src/lesson54_multithreading_volatile/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
     "Application.Test (3).executor": "Run",
     "Application.Test (4).executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Test2 (1).executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
     "Application.Test4.executor": "Run",
@@ -98,6 +95,11 @@
     "Application.lesson4_parametrized_method.Test.executor": "Run",
     "Application.lesson50.Test.executor": "Run",
     "Application.lesson51_multithreading.Test.executor": "Run",
+    "Application.lesson52.Test.executor": "Run",
+    "Application.lesson52_multithreading_getName_setName_getPriority.Test2.executor": "Run",
+    "Application.lesson53_multithreading_sleep.Test.executor": "Run",
+    "Application.lesson54_multithreading.Test.executor": "Run",
+    "Application.lesson54_multithreading_volatile.Test.executor": "Run",
     "Application.lesson6.Test.executor": "Run",
     "Application.lesson7.Test.executor": "Run",
     "Application.lesson8.Test.executor": "Run",
@@ -126,13 +128,39 @@
       <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test5">
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test2" />
+  <component name="RunManager" selected="Application.lesson54_multithreading_volatile.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson53_multithreading_sleep_join_getState.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="PATTERN" value="lesson53_multithreading_sleep_join_getState.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson53_multithreading_sleep_join_getState.Test2" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson53_multithreading_sleep_join_getState.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson53_multithreading_sleep_join_getState.Test2" />
+      <module name="java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson53_multithreading_sleep_join_getState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,37 +169,11 @@
       </method>
     </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test3" />
+      <option name="MAIN_CLASS_NAME" value="lesson53_multithreading_sleep_join_getState.Test3" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson51_multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test4" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson51_multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test5" />
-      <module name="java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="PATTERN" value="lesson53_multithreading_sleep_join_getState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson44_stream_groupingBy_and_partitioningBy.Test" />
+    <configuration name="lesson52_multithreading_getName_setName_getPriority.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson52_multithreading_getName_setName_getPriority.Test2" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson44_stream_groupingBy_and_partitioningBy.*" />
+          <option name="PATTERN" value="lesson52_multithreading_getName_setName_getPriority.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson51_multithreading.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson51_multithreading.Test" />
+    <configuration name="lesson54_multithreading_volatile.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson54_multithreading_volatile.Test" />
       <module name="java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson51_multithreading.*" />
+          <option name="PATTERN" value="lesson54_multithreading_volatile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +222,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.lesson54_multithreading_volatile.Test" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.lesson51_multithreading.Test" />
+        <item itemvalue="Application.lesson52_multithreading_getName_setName_getPriority.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -277,31 +278,9 @@
       <workItem from="1717861955687" duration="1976000" />
       <workItem from="1718094544965" duration="5482000" />
       <workItem from="1718276684975" duration="3052000" />
-      <workItem from="1718355546441" duration="2733000" />
-    </task>
-    <task id="LOCAL-00002" summary="lesson5 Generic example">
-      <option name="closed" value="true" />
-      <created>1713966443180</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1713966443180</updated>
-    </task>
-    <task id="LOCAL-00003" summary="lesson6 Generic Subtyping">
-      <option name="closed" value="true" />
-      <created>1714135571286</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1714135571286</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lesson7 Generic Wildcards">
-      <option name="closed" value="true" />
-      <created>1714137551179</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1714137551179</updated>
+      <workItem from="1718355546441" duration="2870000" />
+      <workItem from="1718639067843" duration="4682000" />
+      <workItem from="1718698049321" duration="2910000" />
     </task>
     <task id="LOCAL-00005" summary="lesson8 collection ArrayList">
       <option name="closed" value="true" />
@@ -671,7 +650,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718282115599</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="lesson51 multithreading 5 вариантов реализации">
+      <option name="closed" value="true" />
+      <created>1718358347650</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1718358347650</updated>
+    </task>
+    <task id="LOCAL-00052" summary="lesson52 multithreading методы">
+      <option name="closed" value="true" />
+      <created>1718640692632</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1718640692633</updated>
+    </task>
+    <task id="LOCAL-00053" summary="lesson53 multithreading методы sleep,join,getState">
+      <option name="closed" value="true" />
+      <created>1718643772128</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1718643772128</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,9 +692,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson27 inner class" />
-    <MESSAGE value="lesson28 Local inner class" />
-    <MESSAGE value="lesson29 Anonymous class" />
     <MESSAGE value="lesson30 Lambda" />
     <MESSAGE value="lesson31 Lambda + Comparator" />
     <MESSAGE value="lesson32 Lambda + Predicate" />
@@ -714,6 +714,9 @@
     <MESSAGE value="lesson48 stream skip" />
     <MESSAGE value="lesson49 stream mapToInt" />
     <MESSAGE value="lesson50 parallel stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson50 parallel stream" />
+    <MESSAGE value="lesson51 multithreading 5 вариантов реализации" />
+    <MESSAGE value="lesson52 multithreading методы" />
+    <MESSAGE value="lesson53 multithreading методы sleep,join,getState" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson53 multithreading методы sleep,join,getState" />
   </component>
 </project>
