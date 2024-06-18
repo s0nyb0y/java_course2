@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson53 multithreading методы sleep,join,getState">
-      <change afterPath="$PROJECT_DIR$/src/lesson54_multithreading_volatile/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson54 multithreading volatile">
+      <change beforePath="$PROJECT_DIR$/src/lesson54_multithreading_volatile/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson54_multithreading_volatile/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,15 +279,7 @@
       <workItem from="1718276684975" duration="3052000" />
       <workItem from="1718355546441" duration="2870000" />
       <workItem from="1718639067843" duration="4682000" />
-      <workItem from="1718698049321" duration="2910000" />
-    </task>
-    <task id="LOCAL-00005" summary="lesson8 collection ArrayList">
-      <option name="closed" value="true" />
-      <created>1714218544503</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1714218544503</updated>
+      <workItem from="1718698049321" duration="3507000" />
     </task>
     <task id="LOCAL-00006" summary="lesson8 ArrayList methods">
       <option name="closed" value="true" />
@@ -674,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718643772128</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="lesson54 multithreading volatile">
+      <option name="closed" value="true" />
+      <created>1718701784274</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1718701784274</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson30 Lambda" />
     <MESSAGE value="lesson31 Lambda + Comparator" />
     <MESSAGE value="lesson32 Lambda + Predicate" />
     <MESSAGE value="lesson32 Lambda + Supplier" />
@@ -717,6 +715,7 @@
     <MESSAGE value="lesson51 multithreading 5 вариантов реализации" />
     <MESSAGE value="lesson52 multithreading методы" />
     <MESSAGE value="lesson53 multithreading методы sleep,join,getState" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson53 multithreading методы sleep,join,getState" />
+    <MESSAGE value="lesson54 multithreading volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson54 multithreading volatile" />
   </component>
 </project>

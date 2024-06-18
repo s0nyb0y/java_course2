@@ -1,7 +1,8 @@
 package lesson54_multithreading_volatile;
 
 public class Test extends Thread{
-    // ключевое слово volatile не позволяет записать значение переменной в кэш память
+    // ключевое слово volatile не позволяет записывать значение переменной в кэш память, эффективен только
+    // в случаи, если переменную может изменять только один поток, иначе synchronized
     volatile boolean b = true;
     long counter = 0;
     @Override
