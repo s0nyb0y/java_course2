@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson56 multithreading synchronized block">
-      <change afterPath="$PROJECT_DIR$/src/lesson57_multithreading_wait_notify/WaitNotifyEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson57_multithreading_wait_notify/WaitNotifyEx2.java" afterDir="false" />
+    <list default="true" id="a7075da9-35f4-49cf-84d0-47bf7a71222d" name="Changes" comment="lesson57 multithreading wait and notify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson57_multithreading_wait_notify/WaitNotifyEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson57_multithreading_wait_notify/WaitNotifyEx2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,113 +31,113 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnonymousClass.executor": "Run",
-    "Application.BinarySearch (1).executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.LocalInner.executor": "Run",
-    "Application.PriorityQueueEx.executor": "Run",
-    "Application.StudentInfo.executor": "Run",
-    "Application.Test (1).executor": "Run",
-    "Application.Test (2).executor": "Run",
-    "Application.Test (3).executor": "Run",
-    "Application.Test (4).executor": "Run",
-    "Application.Test (5).executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Test2 (1).executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.Test3.executor": "Run",
-    "Application.Test4.executor": "Run",
-    "Application.Test5.executor": "Run",
-    "Application.WaitNotifyEx (1).executor": "Run",
-    "Application.WaitNotifyEx (2).executor": "Run",
-    "Application.WaitNotifyEx (3).executor": "Run",
-    "Application.WaitNotifyEx (4).executor": "Run",
-    "Application.WaitNotifyEx (5).executor": "Run",
-    "Application.WaitNotifyEx.executor": "Run",
-    "Application.WaitNotifyEx2 (1).executor": "Run",
-    "Application.WaitNotifyEx2 (2).executor": "Run",
-    "Application.WaitNotifyEx2 (3).executor": "Run",
-    "Application.WaitNotifyEx2 (4).executor": "Run",
-    "Application.WaitNotifyEx2.executor": "Run",
-    "Application.WithInterfaceComparable (1).executor": "Run",
-    "Application.WithInterfaceComparable (2).executor": "Run",
-    "Application.WithInterfaceComparable (3).executor": "Run",
-    "Application.WithInterfaceComparable.executor": "Run",
-    "Application.lesson10.Test (1).executor": "Run",
-    "Application.lesson10.Test (2).executor": "Run",
-    "Application.lesson10.Test (3).executor": "Run",
-    "Application.lesson10.Test.executor": "Run",
-    "Application.lesson11_iterator.Test.executor": "Run",
-    "Application.lesson12_LinkedList.Test.executor": "Run",
-    "Application.lesson13_ListIterator.Test.executor": "Run",
-    "Application.lesson16_Map.Test.executor": "Run",
-    "Application.lesson17_hashCode.Test.executor": "Run",
-    "Application.lesson18_TreeMap.Test.executor": "Run",
-    "Application.lesson20_HashSet.Test.executor": "Run",
-    "Application.lesson21_TreeSet.Test (1).executor": "Run",
-    "Application.lesson21_TreeSet.Test.executor": "Run",
-    "Application.lesson22_LinkedHashSet.Test.executor": "Run",
-    "Application.lesson23.Test.executor": "Run",
-    "Application.lesson25_Deque.Test.executor": "Run",
-    "Application.lesson27_inner_class.Test.executor": "Run",
-    "Application.lesson31.StudentInfo.executor": "Run",
-    "Application.lesson31_lambda2.StudentInfo.executor": "Run",
-    "Application.lesson32_lambda_predicate.StudentInfo.executor": "Run",
-    "Application.lesson33_lambda_supplier.Test.executor": "Run",
-    "Application.lesson34.Test.executor": "Run",
-    "Application.lesson34_lambda_Consumer.Test.executor": "Run",
-    "Application.lesson35.Test.executor": "Run",
-    "Application.lesson36_streams_map.Test.executor": "Run",
-    "Application.lesson38_stream_reduce.Test.executor": "Run",
-    "Application.lesson39_stream_sorted.Test.executor": "Run",
-    "Application.lesson4.Test.executor": "Run",
-    "Application.lesson40.Test.executor": "Debug",
-    "Application.lesson40_stream_chaining.Test.executor": "Run",
-    "Application.lesson41_stream_concat.Test.executor": "Run",
-    "Application.lesson42_stream_count.Test.executor": "Run",
-    "Application.lesson43_stream_flatMap.Test.executor": "Run",
-    "Application.lesson44.Test.executor": "Run",
-    "Application.lesson45.Test.executor": "Run",
-    "Application.lesson46.Test.executor": "Run",
-    "Application.lesson47.Test.executor": "Run",
-    "Application.lesson48.Test.executor": "Run",
-    "Application.lesson49_stream_mapToInt.Test.executor": "Run",
-    "Application.lesson4_parametrized_method.Test.executor": "Run",
-    "Application.lesson50.Test.executor": "Run",
-    "Application.lesson51_multithreading.Test.executor": "Run",
-    "Application.lesson52.Test.executor": "Run",
-    "Application.lesson52_multithreading_getName_setName_getPriority.Test2.executor": "Run",
-    "Application.lesson53_multithreading_sleep.Test.executor": "Run",
-    "Application.lesson54_multithreading.Test.executor": "Run",
-    "Application.lesson54_multithreading_volatile.Test.executor": "Run",
-    "Application.lesson55_multithreading_synchronized.Test.executor": "Run",
-    "Application.lesson56_multithreading.Test.executor": "Run",
-    "Application.lesson57_multithreading_wait_notify.Test.executor": "Run",
-    "Application.lesson6.Test.executor": "Run",
-    "Application.lesson7.Test.executor": "Run",
-    "Application.lesson8.Test.executor": "Run",
-    "Application.lesson8_collection_ArrayList.Test.executor": "Run",
-    "Application.lesson8_collection_ArrayList.Test2 (1).executor": "Run",
-    "Application.lesson8_collection_ArrayList.Test2 (2).executor": "Run",
-    "Application.lesson8_collection_ArrayList.Test2 (3).executor": "Run",
-    "Application.lesson8_collection_ArrayList.Test2.executor": "Run",
-    "Application.lesson9.Test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/a7906/IdeaProjects/java-course2/src/lesson31_lambda2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnonymousClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalInner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueueEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyEx2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithInterfaceComparable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson10.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson11_iterator.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson12_LinkedList.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson13_ListIterator.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson16_Map.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson17_hashCode.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson18_TreeMap.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson20_HashSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson21_TreeSet.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson21_TreeSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson22_LinkedHashSet.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson23.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson25_Deque.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson27_inner_class.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson31.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson31_lambda2.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson32_lambda_predicate.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson33_lambda_supplier.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson34.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson34_lambda_Consumer.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson35.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson36_streams_map.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson38_stream_reduce.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson39_stream_sorted.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson40.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.lesson40_stream_chaining.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson41_stream_concat.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson42_stream_count.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson43_stream_flatMap.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson44.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson45.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson46.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson47.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson48.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson49_stream_mapToInt.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson4_parametrized_method.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson50.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson51_multithreading.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson52.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson52_multithreading_getName_setName_getPriority.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson53_multithreading_sleep.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson54_multithreading.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson54_multithreading_volatile.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson55_multithreading_synchronized.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson56_multithreading.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson57_multithreading_wait_notify.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson6.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson7.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson8_collection_ArrayList.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson9.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/java-course2/src/lesson31_lambda2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a7906\IdeaProjects\java-course2\src\lesson31_lambda2" />
@@ -274,15 +273,8 @@
       <workItem from="1718698049321" duration="6512000" />
       <workItem from="1718786017305" duration="218000" />
       <workItem from="1718786242719" duration="6573000" />
-      <workItem from="1718869359972" duration="6941000" />
-    </task>
-    <task id="LOCAL-00009" summary="lesson11 Iterator">
-      <option name="closed" value="true" />
-      <created>1714654908464</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1714654908464</updated>
+      <workItem from="1718869359972" duration="6993000" />
+      <workItem from="1718877880177" duration="452000" />
     </task>
     <task id="LOCAL-00010" summary="lesson12 LinkedList">
       <option name="closed" value="true" />
@@ -668,7 +660,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718792139175</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="lesson57 multithreading wait and notify">
+      <option name="closed" value="true" />
+      <created>1718877481282</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1718877481282</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson34 Lambda + Consumer" />
     <MESSAGE value="lesson34 Lambda + Consumer добавил пример" />
     <MESSAGE value="lesson35 Lambda + Function" />
     <MESSAGE value="lesson36 stream map" />
@@ -711,6 +710,7 @@
     <MESSAGE value="lesson54 multithreading volatile дополнил" />
     <MESSAGE value="lesson55 multithreading synchronized" />
     <MESSAGE value="lesson56 multithreading synchronized block" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson56 multithreading synchronized block" />
+    <MESSAGE value="lesson57 multithreading wait and notify" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson57 multithreading wait and notify" />
   </component>
 </project>

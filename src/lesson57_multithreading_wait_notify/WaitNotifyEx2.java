@@ -20,6 +20,11 @@ class Market2 {
         synchronized (lock) {
             while (breadCount >= 5) {
                 try {
+                    // в случаи когда используется synchronized block,методы wait() и
+                    // notify обязательно писать с объектом на котором
+                    // они синхронизированы! Пример: lock.wait() и  lock.notify();
+
+                    // в параметре метода .wait(1000) можно указывать сколько ждать
                     lock.wait();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
